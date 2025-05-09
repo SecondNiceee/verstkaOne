@@ -1,0 +1,1 @@
+export type TFetchStatus = "fulfilled" | "pending" | "rejected"

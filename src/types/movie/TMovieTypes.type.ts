@@ -1,0 +1,1 @@
+export type TMovieTypes = "all" | "movie" | "series";
