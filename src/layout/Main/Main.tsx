@@ -40,7 +40,7 @@ const Main = () => {
                 return <Loader />
         }
     }, [fetchMovieStatus, movies] )
-
+    
     return (
         <div className="flex flex-col container min-h-[calc(100vh-126px)] relative">
             <Search setFetchMovieStatus={setFetchMovieStatus} setMovies={setMovies} />
